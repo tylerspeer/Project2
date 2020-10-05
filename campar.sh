@@ -1,10 +1,5 @@
 #!/usr/bin/bash
 
-date
-cal
-pwd
-ls
-
 string_a="UNIX"
 string_b="GNU"
 
@@ -18,4 +13,3 @@ num_b=100
 echo "Is $num_a equal to $num_b ?"
 [ $num_a -eq $num_b ]
 echo $?
-
